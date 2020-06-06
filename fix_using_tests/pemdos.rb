@@ -2,10 +2,10 @@
 require 'pry'
 def snake_it_up(string)
   if string[0] == "s"
-    "s" * 10 + string
+    10.to_s * "s" + string
   else
     string
   end
   binding.pry
-  puts 'yurr'
+  puts ''
 end
